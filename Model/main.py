@@ -1,7 +1,7 @@
 import requests
 
 # Set up your NewsAPI key
-NEWS_API_KEY = 'a8bcc3d808424f098069111c114e3ff8'
+NEWS_API_KEY = ''
 
 def get_news(keyword, page_size=20):
     url = f'https://newsapi.org/v2/everything?q={keyword}&apiKey={NEWS_API_KEY}&pageSize={page_size}'
